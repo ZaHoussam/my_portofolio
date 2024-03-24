@@ -4,15 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vuetify": "^3.5.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "vite": "^5.2.0"
+    "pug": "^3.0.2",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
+    "vite": "^5.2.0",
+    "vue-pug-plugin": "^2.0.3"
   }
 }
