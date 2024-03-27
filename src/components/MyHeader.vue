@@ -10,8 +10,14 @@ header.rounded.d-flex.align-center
       :to="route.name"
     )
       | {{ route.name }}
-  v-app-bar-nav-icon.d-flex.d-sm-none
-
+  v-app-bar-nav-icon.d-flex(@click="dialog = true")
+  v-dialog.position-absolute.top-0(v-model="dialog", width="auto")
+    v-card.offset-lg10(
+      max-width="400",
+      prepend-icon="mdi-update",
+      text="Your application will relaunch automatically after the update is complete.",
+      title="Update in progress"
+    )
   v-spacer
   v-btn.px-0(
     color="transparent",
@@ -31,13 +37,15 @@ import { useRouter } from "vue-router";
 // & Using Pinia store ====> Screen Theme file
 import { useScreenThemeStore } from "../store/screenTheme";
 import { storeToRefs } from "pinia";
+import { ref } from "vue";
 
 const store = useScreenThemeStore();
 const { theme } = storeToRefs(store);
-console.log(theme.value);
 const setThemeToLocalStorage = store.setThemeToLocalStorage;
 const router = useRouter();
 const routes = router.options.routes;
+// ! Dialog
+const dialog = ref(false);
 </script>
 
 <style lang="scss" scoped>
