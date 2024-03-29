@@ -10,14 +10,29 @@ header.rounded.d-flex.align-center
       :to="route.name"
     )
       | {{ route.name }}
-  v-app-bar-nav-icon.d-flex(@click="dialog = true")
-  v-dialog.position-absolute.top-0(v-model="dialog", width="auto")
-    v-card.offset-lg10(
-      max-width="400",
-      prepend-icon="mdi-update",
-      text="Your application will relaunch automatically after the update is complete.",
-      title="Update in progress"
-    )
+  v-app-bar-nav-icon.d-flex.d-sm-none(@click="dialog = true")
+  v-dialog(
+    v-model="dialog",
+    style="position: absolute; top: -200px",
+    transition="slide-y-transition"
+  )
+    v-card(:color="theme ? '#252529' : '#f5f5f5'")
+      v-card-subtitle.pa-6.d-flex.align-center.justify-space-between.text-capitalize.text-h5
+        | navigation
+        v-btn(variant="plain", @click="dialog = false")
+          v-icon mdi-close
+      v-divider
+      v-list.py-0.no-theme(lines="two", :class="theme ? 'dark' : 'light'")
+        v-list-item(
+          v-for="route in routes",
+          :key="route.name",
+          :to="route.name",
+          :value="route",
+          @click="dialog = false",
+          color="#2cc7b3"
+        )
+          v-list-item-title.text-capitalize.text-center
+            | {{ route.name }}
   v-spacer
   v-btn.px-0(
     color="transparent",
@@ -66,5 +81,15 @@ const dialog = ref(false);
       transition: 0.4s;
     }
   }
+}
+.dark,
+.light {
+  background-color: transparent;
+}
+.dark {
+  color: #cfd8dc;
+}
+.light {
+  color: #252529;
 }
 </style>
