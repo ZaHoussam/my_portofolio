@@ -1,0 +1,98 @@
+[
+  {
+    "prefix": {
+      "title": "Hi 👋, I'm",
+      "contact": "📫 Ask me or message me",
+      "resume": "📄 Know about my experiences",
+      "portfolio": "👨‍💻 All of my projects are available at"
+    },
+    "profile": {
+      "name": "Houssam",
+      "githubName": "ZaHoussam",
+      "title": "Front-end developer",
+      "substitle": "Creative and experienced Front-End Developer with strong skills in designing and developing user-friendly and interactive user interfaces.",
+      "social_media": {
+        "linkedin": "link",
+        "instagram": "link",
+        "github": "link"
+      },
+      "email": "mrlhou62@gmail.com"
+    },
+    "about": {
+      "summary": "A passionate Front-End Developer with experience crafting user-friendly and interactive interfaces. Proven ability to translate designs into functional code using HTML, CSS, and JavaScript (including libraries like Vue.js or React). Adept at collaboration and thrives in a team environment. Eager to leverage skills at a leading technology company to contribute to innovative web products. "
+    },
+    "projects": [
+      {
+        "name": "meal recipe",
+        "folders": "meal-recipe",
+        "website": "meal-recipe/",
+        "image": "316317506-2924009d-0208-4d20-b892-b4d5e8616041.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTI2NDksIm5iZiI6MTcxMjYxMjM0OSwicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTc1MDYtMjkyNDAwOWQtMDIwOC00ZDIwLWI4OTItYjRkNWU4NjE2MDQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIxMzkwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNlNjMzOWE4NmNkMmUzM2E4NDU1N2FlNzQ0YjcxYWNlZmUyOWI3NzgzZjU3N2E1OTgwMDk1Y2VlOTY4YTVkOWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uWaiU30wvhcUHewgZZsS89V6Ev31qmfaGw4DawkzXW0",
+        "languages": ["Vuejs", "SASS"]
+      },
+      {
+        "name": "to do list",
+        "folders": "to-do-list",
+        "website": "to-do-list/",
+        "image": "316316778-085f739e-0de6-48c4-bd7e-f60204ee7972.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTI4ODMsIm5iZiI6MTcxMjYxMjU4MywicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTY3NzgtMDg1ZjczOWUtMGRlNi00OGM0LWJkN2UtZjYwMjA0ZWU3OTcyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIxNDMwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA4NjM1ZmIwY2I4MjZiYjcwNjk1MDM4NzNkMzU0ZjMxNjU3NjlmZTM1ZTMwMWFiNmJjZjM3NjYyNTY4ZTk3MjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.IbuDhiEwJQ7F9XYI8Eaz1sE4E9moKUutO5uaqjsafzc",
+        "languages": ["Vuejs", "JS"]
+      },
+      {
+        "name": "Delivery Site",
+        "folders": "Delivery_Site",
+        "website": "Delivery_Template/",
+        "image": "316316235-962d93e3-0926-4291-a57d-e742ee4a5417.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTMyODMsIm5iZiI6MTcxMjYxMjk4MywicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTYyMzUtOTYyZDkzZTMtMDkyNi00MjkxLWE1N2QtZTc0MmVlNGE1NDE3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIxNDk0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMxNGIzMWI2NWI2ODQ5ODUwYTA2ZTdkZTYzYzY5MmExYjQyYWZjNDA3MzNiYThjMjQ0YTgzY2ZjNDY2MjVlYTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.KR0yTa49FR2gpSQZO1GTXZoei0m5bx6OQTa3AL_Pw0c",
+        "languages": ["HTNL/CSS", "SASS", "JS"]
+      },
+      {
+        "name": "Introductory Site",
+        "folders": "Introductory-Site",
+        "website": "Introductory-Site/",
+        "image": "316304009-651335b0-cd32-49fd-a060-246a99b51d2a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTM2OTEsIm5iZiI6MTcxMjYxMzM5MSwicGF0aCI6Ii84OTA3NzQyMy8zMTYzMDQwMDktNjUxMzM1YjAtY2QzMi00OWZkLWEwNjAtMjQ2YTk5YjUxZDJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIxNTYzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFkN2E5ZDY5NjRlOTI2YTU3NjRlMTEzMmNkOTI0ZjBjOGE4Mzg2MWFkZGI5Y2FhMzdhOTI5YjVlNGQ4ZWFjNmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.M1VzJTWrL0K9pcmcINQ2SipAS_OgdAY7z--OdvRCaww",
+        "languages": ["HTNL/CSS", "JS"]
+      },
+      {
+        "name": "Savor Creativity",
+        "folders": "Savor-Creativity",
+        "website": "Savor-Creativity/",
+        "image": "316314801-3c38c1eb-9c42-4f47-992d-549081edbaaa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTM4ODIsIm5iZiI6MTcxMjYxMzU4MiwicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTQ4MDEtM2MzOGMxZWItOWM0Mi00ZjQ3LTk5MmQtNTQ5MDgxZWRiYWFhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIxNTk0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI1N2IyZTU3Nzc2YjNjNWM0MzExMTUxN2UxMzgyNGZhODhhY2NkYTQ5ODBiODliZmQyZmI2YTJkMjk3MmZiMzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LSuIFdA6UAL3AxrdFyd6yfXOJBNZNWkfl1zUVvboEDQ",
+        "languages": ["HTNL/CSS", "Bootstrap"]
+      },
+      {
+        "name": "Casper Site",
+        "folders": "Casper-Site",
+        "website": "Casper-Site/",
+        "image": "316313032-e819b3f0-b4bf-4dca-a632-4abc78ff0d97.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTQwNTcsIm5iZiI6MTcxMjYxMzc1NywicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTMwMzItZTgxOWIzZjAtYjRiZi00ZGNhLWE2MzItNGFiYzc4ZmYwZDk3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIyMDIzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2Y2VhYjk4YjUyZmFhYWIzZGIxNzlhNTgxZTI0NmJmNDE1ODJmZmRiOWVjNzg5ODViNDVjNWUwNWNjOWViYjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qLr7aujSFFcLS-DB42mly1RSvC2tryS8K77t1Gz9zO0",
+        "languages": ["HTNL/CSS"]
+      },
+      {
+        "name": "Leon Site",
+        "folders": "Leon-Site",
+        "website": "Leon-Site/",
+        "image": "316310444-d88c93e4-7b2b-4322-a917-2bbae64d917d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTU3MjMsIm5iZiI6MTcxMjYxNTQyMywicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTA0NDQtZDg4YzkzZTQtN2IyYi00MzIyLWE5MTctMmJiYWU2NGQ5MTdkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIyMzAyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk5YWZiZWIzM2YzODcxYjQ4Mjg5MTM1ODliOTNlMjYzZTU5YzgzNzg2MzQ3YmFlNDFiODc3NWYxMTk0MDZkNmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.G-5nkOpu6kd0sETfxZwUST5BCCFdW1cd8nQayRg0n8k",
+        "languages": ["HTNL/CSS"]
+      },
+      {
+        "name": "Demo",
+        "folders": "Demo",
+        "website": "Demo/",
+        "image": "316310039-25f8d8e1-b779-458f-ad49-097bf8df8981.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTU5NjAsIm5iZiI6MTcxMjYxNTY2MCwicGF0aCI6Ii84OTA3NzQyMy8zMTYzMTAwMzktMjVmOGQ4ZTEtYjc3OS00NThmLWFkNDktMDk3YmY4ZGY4OTgxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIyMzQyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVlYTMxNzNkM2YyOWVmYmNkZTA3YmRiZTc5YzlhZWQ3MDIzMDgwNGJhY2MwNDAyYzhiYjNkYTA5OGFjNTAyYTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.v05Tdb3FaqcqrfA1e6TyIjeHeE66d_lllMhh4w_4jRU",
+        "languages": ["HTNL/CSS", "jQuery", "JS"]
+      },
+      {
+        "name": "Chair Store",
+        "folders": "Chair-Store",
+        "website": "Chair-Store/",
+        "image": "316309448-b4bd0546-69f8-4a1b-b415-495aca3cc3e5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTYwNTMsIm5iZiI6MTcxMjYxNTc1MywicGF0aCI6Ii84OTA3NzQyMy8zMTYzMDk0NDgtYjRiZDA1NDYtNjlmOC00YTFiLWI0MTUtNDk1YWNhM2NjM2U1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIyMzU1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY4YjlhMTk3NzdiYWVjYTRmYmZhYTA4Y2IxY2Y0NGFmNTUyODllMGRkM2IyYjE1OTU3YzkyMjYwYTcwZDgyMWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.A8oEaa1rTR6Ha2-tf_QzCBUapv6GURYKZ-mg_dKtKLs",
+        "languages": ["HTNL/CSS", "jQuery", "JS"]
+      },
+      {
+        "name": "Creative Agency",
+        "folders": "Creative-Agency",
+        "website": "Creative-Agency/",
+        "image": "316308903-6de38e15-8f7b-4c27-82cd-89511c7e5529.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2MTYxNDIsIm5iZiI6MTcxMjYxNTg0MiwicGF0aCI6Ii84OTA3NzQyMy8zMTYzMDg5MDMtNmRlMzhlMTUtOGY3Yi00YzI3LTgyY2QtODk1MTFjN2U1NTI5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDIyMzcyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRkMmFmMGQ2Y2NiMWE2ODgzZDkxMjEzOTQ4ZWUyZWU1YWFkMmUwNmExMjg4YjY2MDgxNjNiZjA1NmYyODdhN2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LmhwWlkGb-f_n-O9hAX9l-iKz0duvMMHEqg1tUhEoM8",
+        "languages": ["HTNL/CSS"]
+      }
+    ],
+    "skills": ["HTNL/CSS", "JS", "Vuejs", "Bootstrap", "SASS", "jQuery"]
+  }
+]

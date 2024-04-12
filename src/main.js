@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
+
 // Use Pinia Store
 import { createPinia } from "pinia";
 
@@ -21,4 +22,12 @@ const vuetify = createVuetify({
   directives,
 });
 
-app.use(vuetify).use(pinia).use(router).mount("#app");
+import Vue3Lottie from "vue3-lottie";
+// import "vue3-lottie/dist/style.css";
+
+app
+  .use(vuetify)
+  .use(router)
+  .use(Vue3Lottie, { name: "LottieAnimation" })
+  .use(pinia)
+  .mount("#app");

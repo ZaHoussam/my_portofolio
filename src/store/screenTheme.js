@@ -16,10 +16,10 @@ export const useScreenThemeStore = defineStore("theme", {
 
 /* 
     todo theme obj :
-    & light
+    & light false
         ~ text-color : #18181b
         ~ bg : #cfd8dc
-    * dark
+    * dark true
         ^ text-color : #18181b
         ^ bg : #18181b
 
